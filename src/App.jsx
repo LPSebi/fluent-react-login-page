@@ -8,8 +8,8 @@ export default function App() {
     return (
         <>
             <BackgroundImage>
-                <PageHeader></PageHeader>
-                <Login></Login>
+                <PageHeader />
+                <Login />
             </BackgroundImage>
         </>
     );
