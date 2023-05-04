@@ -1,3 +1,4 @@
+import { Tooltip } from '@nextui-org/react';
 import ReactLogo from '.././assets/react.svg';
 
 export function PageHeader() {
@@ -9,7 +10,9 @@ export function PageHeader() {
                     alignItems: 'center',
                     gap: '7.5px',
                 }}>
-                <img src={ReactLogo} alt="React Logo" className="svg" />
+                <Tooltip placement="bottom" content={'Devs ♥️ React'}>
+                    <img src={ReactLogo} alt="React Logo" className="svg" />
+                </Tooltip>
                 <a href="/" className="headerText">
                     React Login
                 </a>
