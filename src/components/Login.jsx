@@ -9,11 +9,6 @@ import {
 export function Login() {
     const darkTheme = createTheme({
         type: 'dark',
-        darkTheme: {
-            colors: {
-                primary: 'red',
-            },
-        },
     });
 
     return (
@@ -22,26 +17,19 @@ export function Login() {
                 <div className="loginCard">
                     <NextUIProvider theme={darkTheme} />
                     <Input
-                        clearable
-                        // underlined
                         bordered
-                        labelPlaceholder="Email"
-                        css={{
-                            placeholder: { color: 'white' },
-                        }}
+                        labelPlaceholder={
+                            <span style={{ color: 'white' }}>Email</span>
+                        }
                     />
                     <Spacer y={2} />
                     <Input.Password
-                        clearable
-                        // underlined
                         bordered
-                        labelPlaceholder="Password"
-                        css={{
-                            accents6: { color: 'white' },
-                        }}
-                        status="default"
+                        labelPlaceholder={
+                            <span style={{ color: 'white' }}>Password</span>
+                        }
                     />
-                    <Spacer y={2} />
+                    <Spacer y={7} />
 
                     <Button shadow auto>
                         Login
