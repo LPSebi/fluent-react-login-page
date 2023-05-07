@@ -110,3 +110,19 @@ body {
 
     pointer-events: all;
 }
+
+#loginFinishButton,
+#loginFinishButtonGoogle {
+    display: inline-flex;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: calc(100% - 20px);
+}
+
+.loginFinishSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
