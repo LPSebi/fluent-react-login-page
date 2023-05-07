@@ -86,6 +86,11 @@ body {
 }
 
 .loginCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+
     width: 300px;
     height: 400px;
 

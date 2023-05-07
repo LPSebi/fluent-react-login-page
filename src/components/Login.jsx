@@ -13,27 +13,30 @@ export function Login() {
 
     return (
         <div>
+            <NextUIProvider theme={darkTheme} />
+
             <div className="loginContainer">
                 <div className="loginCard">
-                    <NextUIProvider theme={darkTheme} />
-                    <Input
-                        bordered
-                        labelPlaceholder={
-                            <span style={{ color: 'white' }}>Email</span>
-                        }
-                    />
-                    <Spacer y={2} />
-                    <Input.Password
-                        bordered
-                        labelPlaceholder={
-                            <span style={{ color: 'white' }}>Password</span>
-                        }
-                    />
-                    <Spacer y={7} />
-
-                    <Button shadow auto>
-                        Login
-                    </Button>
+                    <section>
+                        <Input
+                            bordered
+                            labelPlaceholder={
+                                <span style={{ color: 'white' }}>Email</span>
+                            }
+                        />
+                        <Spacer y={1.5} />
+                        <Input.Password
+                            bordered
+                            labelPlaceholder={
+                                <span style={{ color: 'white' }}>Password</span>
+                            }
+                        />
+                    </section>
+                    <section className="loginFinishSection">
+                        <Button shadow auto>
+                            Login
+                        </Button>
+                    </section>
                 </div>
             </div>
         </div>
