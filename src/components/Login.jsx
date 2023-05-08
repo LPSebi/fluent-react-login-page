@@ -1,20 +1,8 @@
-import {
-    Button,
-    Input,
-    NextUIProvider,
-    Spacer,
-    createTheme,
-} from '@nextui-org/react';
+import { Button, Input, Spacer, Switch, Text } from '@nextui-org/react';
 
 export function Login() {
-    const darkTheme = createTheme({
-        type: 'dark',
-    });
-
     return (
         <div>
-            <NextUIProvider theme={darkTheme} />
-
             <div className="loginContainer">
                 <div className="loginCard">
                     <section>
@@ -31,6 +19,20 @@ export function Login() {
                                 <span style={{ color: 'white' }}>Password</span>
                             }
                         />
+                        <Spacer y={1.5}></Spacer>
+                        <section style={{ display: 'inline-flex' }}>
+                            <Switch
+                                shadow
+                                css={{
+                                    marginRight: '10px',
+                                }}></Switch>
+                            <Text
+                                style={{ color: 'white' }}
+                                size="$md"
+                                weight="medium">
+                                Accept TOS
+                            </Text>
+                        </section>
                     </section>
                     <section className="loginFinishSection">
                         <Button
@@ -53,7 +55,7 @@ export function Login() {
                                 color: 'black',
                                 boxShadow: '0 4px 14px 0 #ffffff',
                             }}>
-                            {/* add google svg */}
+                            {/* google svg */}
                             <svg
                                 style={{ marginRight: '5px' }}
                                 xmlns="http://www.w3.org/2000/svg"
