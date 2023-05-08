@@ -21,11 +21,6 @@ body {
     overflow-y: hidden;
 }
 
-.svg {
-    width: 37.5px;
-    height: 37.5px;
-}
-
 .background {
     background-image: radial-gradient(
             18% 28% at 24% 50%,

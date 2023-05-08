@@ -1,4 +1,4 @@
-import { Button, Input, Spacer, Switch, Text } from '@nextui-org/react';
+import { Button, Input, Link, Spacer, Switch, Text } from '@nextui-org/react';
 
 export function Login() {
     return (
@@ -30,30 +30,35 @@ export function Login() {
                                 style={{ color: 'white' }}
                                 size="$md"
                                 weight="medium">
-                                Accept TOS
+                                Accept{' '}
+                                <Link
+                                    href="/terms"
+                                    isExternal
+                                    color="text"
+                                    target="_blank">
+                                    TOS
+                                </Link>
                             </Text>
                         </section>
                     </section>
                     <section className="loginFinishSection">
                         <Button
-                            shadow
                             auto
+                            // shadow
                             id="loginFinishButton"
                             css={{
                                 backgroundColor: 'white',
                                 color: 'black',
-                                boxShadow: '0 4px 14px 0 #ffffff',
                             }}>
                             Login
                         </Button>
                         <Button
-                            shadow
                             auto
+                            // shadow
                             id="loginFinishButtonGoogle"
                             css={{
                                 backgroundColor: 'white',
                                 color: 'black',
-                                boxShadow: '0 4px 14px 0 #ffffff',
                             }}>
                             {/* google svg */}
                             <svg

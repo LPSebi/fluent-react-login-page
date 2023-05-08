@@ -13,6 +13,7 @@ export default function App() {
                 primary: '$white',
                 primarySolidHover: '$gray900',
                 primaryShadow: '$accents9',
+                accents2: '$white',
             },
         },
     });
