@@ -22,6 +22,7 @@ export function Login() {
                         <Spacer y={1.5}></Spacer>
                         <section style={{ display: 'inline-flex' }}>
                             <Switch
+                                itemType="checkbox"
                                 shadow
                                 css={{
                                     marginRight: '10px',

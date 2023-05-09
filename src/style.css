@@ -11,6 +11,7 @@
     src: url(./assets/Nunito-Medium.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 body {
