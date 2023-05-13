@@ -6,7 +6,7 @@ This is a simple React login page with Vite bundler that allows users to sign in
 
 1. Clone this repository:
 
--   git clone https://github.com/lpsebi/react-login-page.git
+-   git clone https://github.com/lpsebi/fluent-react-login-page.git
 
 2. Navigate into the project directory:
 
@@ -28,7 +28,7 @@ To use this login page, simply enter your email and password and click the "Sign
 
 ## Customization
 
-You can customize the login page by editing the `Login` component in the `src/components/Login.js` file. You can also customize the styles in the `src/styles.css` directory.
+You can customize the login page by editing the `Login` component in the `src/components/Login.jsx` file. You can also customize the styles in the `src/styles.css` directory.
 
 ## Contributing
 
