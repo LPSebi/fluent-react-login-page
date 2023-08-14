@@ -5,21 +5,21 @@ This is a simple React login page with Vite bundler that allows users to sign in
 ## Installation
 
 1. Clone this repository:
-
--   git clone https://github.com/lpsebi/fluent-react-login-page.git
-
+```
+git clone https://github.com/lpsebi/fluent-react-login-page.git
+```
 2. Navigate into the project directory:
-
--   cd react-login-page
-
+```
+cd react-login-page
+```
 3. Install the dependencies:
-
--   npm install
-
+```
+npm install
+```
 4. Start the development server:
-
--   npm run dev
-
+```
+npm run dev
+```
 This will start the development server at [http://localhost:4000](http://localhost:4000).
 
 ## Usage
