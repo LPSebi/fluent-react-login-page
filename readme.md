@@ -2,6 +2,10 @@
 
 This is a simple React login page with Vite bundler that allows users to sign in with their email and password (Only frontend atm). It is built using React.
 
+![image](https://github.com/LPSebi/fluent-react-login-page/assets/52174534/2c06eb74-0b62-4ab3-a063-45abb4cc4cdc)
+
+
+
 ## Installation
 
 1. Clone this repository:
